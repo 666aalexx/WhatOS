@@ -15,7 +15,7 @@ function helpPanel(){
 }
 
 function start(){
-	ttl=$(ping -c 1 $target | grep "ttl" | awk '{print $1}')
+	ttl=$(ping -c 1 $target | grep -oP "ttl=\K\d+")
 	if [ $ttl == "60" ]; then
                 clear
 		echo -e "${greenColour}[+] iPhone, iPad${endColour}"
