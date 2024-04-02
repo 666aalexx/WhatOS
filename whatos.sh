@@ -25,7 +25,7 @@ function start(){
 	elif [ $ttl == "128" ]; then
 		clear
 		echo -e "${greenColour}[+] Windows${endColour}"
-	elif [ $ttl == "255"]; then
+	elif [ $ttl == "255" ]; then
 		clear
 		echo -e "${greenColour}[+] Solaris, Cisco, Unix${endColour}"
 	elif [ -z $ttl ]; then
