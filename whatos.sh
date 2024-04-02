@@ -30,10 +30,10 @@ function start(){
 		echo -e "${greenColour}[+] Solaris, Cisco, Unix${endColour}"
 	elif [ -z $ttl ]; then
 		clear
-		echo -e "${redColour}[*] System not found${endColour}"
+		echo -e "${redColour}[*] Device not found${endColour}"
 	else
 		clear
-		echo -e "${redColour}[*] Operating system not found${endColour}"
+		echo -e "${redColour}[*] OS not found${endColour}"
 	fi
 }
 
